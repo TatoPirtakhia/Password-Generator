@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
 }
-.changePassword{
+.changePassword {
   font-size: 32px;
   color: rgba(230, 229, 234, 25%);
 }
@@ -77,7 +77,7 @@
 .box {
   width: 20px;
   height: 20px;
-  background-color: #18171F;
+  background-color: #18171f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,29 +126,25 @@
   align-items: center;
   gap: 8px;
 }
-.redBox{
+.redBox {
   height: 28px;
   width: 10px;
   background-color: rgba(246, 74, 74, 1);
-  
 }
-.orangeBox{
+.orangeBox {
   height: 28px;
   width: 10px;
   background-color: rgba(251, 124, 88, 1);
-  
 }
-.yellowBox{
+.yellowBox {
   height: 28px;
   width: 10px;
-  background-color:rgba(248, 205, 101, 1);
-  
+  background-color: rgba(248, 205, 101, 1);
 }
-.greenBox{
+.greenBox {
   height: 28px;
   width: 10px;
-  background-color:rgba(164, 255, 175, 1);
-  
+  background-color: rgba(164, 255, 175, 1);
 }
 .strength_box {
   height: 28px;
@@ -173,4 +169,71 @@ button {
   font-size: 16px;
   line-height: 21px;
   color: #24232c;
+}
+
+.copy:hover {
+  cursor: pointer;
+}
+
+.copy:hover path {
+  fill: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 1440px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .password_copy {
+    padding-left: 32px;
+    padding-right: 28px;
+    width: 540px;
+    height: 80px;
+  }
+  .passwordOutput {
+    font-size: 32px;
+  }
+  .main {
+    margin-top: 24px;
+    width: 540px;
+    padding-left: 32px;
+    padding-top: 34px;
+  }
+
+  .main_header {
+    gap: 264px;
+  }
+  .main_title {
+    font-size: 18px;
+  }
+  .valueOfRange {
+    font-size: 32px;
+  }
+  .range {
+    margin-top: 23px;
+    margin-bottom: 40px;
+    width: 476px;
+  }
+
+  .strength_medium {
+    margin-top: 32px;
+    width: 476px;
+    height: 72px;
+    padding-left: 32px;
+    padding-right: 31px;
+    background-color: rgba(24, 23, 31, 1);
+    margin-bottom: 32px;
+  }
+  .strength {
+    font-size: 18px;
+  }
+  .medium {
+    font-size: 24px;
+  }
+  button {
+    width: 476px;
+    height: 65px;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
 }
