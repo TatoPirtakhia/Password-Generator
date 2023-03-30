@@ -1,38 +1,133 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(129, 125, 146, 1);
+  margin-bottom: 16px;
+}
+.passwordOutput {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(230, 229, 234, 1);
+}
+
+.password_copy {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 343px;
+  height: 64px;
+  background-color: rgba(36, 35, 44, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  margin-top: 16px;
+  width: 343px;
+  padding-left: 16px;
+  padding-top: 21px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(36, 35, 44, 1);
+}
+.main_header {
+  gap: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(230, 229, 234, 1);
+}
+.valueOfRange {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #a4ffaf;
+}
+.range {
+  margin-top: 23px;
+  margin-bottom: 40px;
+  width: 311px;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(36, 35, 44, 1);
+  border: 2px solid #e6e5ea;
+}
+.checkBoxes {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 17px;
+}
+.boxContainer {
+  display: flex;
+  gap: 28px;
+}
+
+.strength_medium {
+  margin-top: 32px;
+  width: 311px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  gap: 60px;
+  background-color: rgba(24, 23, 31, 1);
+  margin-bottom: 16px;
+}
+.strength {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(129, 125, 146, 1);
+}
+.medium {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(230, 229, 234, 1);
+}
+.medium_box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.stength_boxes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.strength_box {
+  height: 28px;
+  width: 10px;
+  background-color: rgba(24, 23, 31, 1);
+  border: 2px solid #e6e5ea;
+}
+
+button {
+  width: 311px;
+  height: 56px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(164, 255, 175, 1);
+  border: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.generate {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #24232c;
 }
