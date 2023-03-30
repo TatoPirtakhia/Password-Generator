@@ -3,7 +3,10 @@
   align-items: center;
   flex-direction: column;
 }
-
+.changePassword{
+  font-size: 32px;
+  color: rgba(230, 229, 234, 25%);
+}
 .title {
   font-size: 16px;
   font-weight: 700;
@@ -12,6 +15,7 @@
   margin-bottom: 16px;
 }
 .passwordOutput {
+  width: 200px;
   font-size: 24px;
   font-weight: 700;
   color: rgba(230, 229, 234, 1);
@@ -59,10 +63,24 @@
   margin-bottom: 40px;
   width: 311px;
 }
+
+.box_check {
+  background-color: rgba(164, 255, 175, 1);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
 .box {
   width: 20px;
   height: 20px;
-  background-color: rgba(36, 35, 44, 1);
+  background-color: #18171F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px solid #e6e5ea;
 }
 .checkBoxes {
@@ -83,7 +101,8 @@
   display: flex;
   align-items: center;
   padding-left: 16px;
-  gap: 60px;
+  justify-content: space-between;
+  padding-right: 20px;
   background-color: rgba(24, 23, 31, 1);
   margin-bottom: 16px;
 }
@@ -106,6 +125,30 @@
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.redBox{
+  height: 28px;
+  width: 10px;
+  background-color: rgba(246, 74, 74, 1);
+  
+}
+.orangeBox{
+  height: 28px;
+  width: 10px;
+  background-color: rgba(251, 124, 88, 1);
+  
+}
+.yellowBox{
+  height: 28px;
+  width: 10px;
+  background-color:rgba(248, 205, 101, 1);
+  
+}
+.greenBox{
+  height: 28px;
+  width: 10px;
+  background-color:rgba(164, 255, 175, 1);
+  
 }
 .strength_box {
   height: 28px;
