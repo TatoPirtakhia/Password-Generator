@@ -158,9 +158,14 @@ function App() {
           <span className="valueOfRange">{range}</span>
         </div>
         <input
+          style={{
+            background: `linear-gradient(to right, #a4ffaf 0%, #a4ffaf ${
+              range * 5
+            }%, #18171f 0%, #18171f 100%)`,
+          }}
           type="range"
           className="range"
-          min="0"
+          min="1"
           max="20"
           step={1}
           value={range}

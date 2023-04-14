@@ -74,10 +74,43 @@
   line-height: 32px;
   color: #a4ffaf;
 }
-.range {
+/* .range {
   margin-top: 23px;
   margin-bottom: 40px;
   width: 311px;
+} */
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(
+    to right,
+    #a4ffaf 0%,
+    #a4ffaf 50%,
+    #18171f 0%,
+    #18171f 100%
+  );
+  outline: none;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  background: #e6e5ea;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.range::-webkit-slider-runnable-track {
+  height: 30px;
+  width: 100%;
+}
+.range::-webkit-slider-thumb:active,
+.range::-webkit-slider-thumb:hover {
+  cursor: pointer;
+  background: #18171f;
+  border: 2px solid #a4ffaf;
 }
 
 .box_check {
